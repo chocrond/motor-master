@@ -1,0 +1,72 @@
+*{margin: 0;padding: 0;font-family: sans-serif}
+body{
+	background-color: black;
+	color: white;
+}
+#wrp{
+	width: 100%;	
+}
+
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;	
+	height: 100px;
+}
+
+header #logo{
+	width: 90%;
+	text-align: center;
+}
+header #logo img{
+	width: 162px;
+	height: 56px;		
+}
+header #menu{
+	width: 10%;
+}
+.color-white{
+	color: white;
+}
+h2{
+	direction: rtl;
+}
+.text-underline{
+	text-decoration: underline;
+	color: white;
+}
+
+#contentTop hr{
+	width: 80%;
+}
+
+#content{
+	border: 1px solid white;
+	width: 90%;
+	margin: 0 auto;
+	height: 500px;
+}
+#contentTopBoxImgError{
+	height: 60px;
+}
+#contentTop img{
+	width: 57px;
+	height: 41px;
+}
+#mapDiv{
+	width: 90%;
+	height: 200px;
+}
+
+#contentBottom{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+#wazeText{
+	margin-left: 10px;
+}
+#wazeLink img{
+	height: 23px;
+	width: 107px;
+}

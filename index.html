@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>  
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>  
+    <script src="main.js"></script>
+</head>
+<body>
+	<div id="wrp">
+		<header>
+			<div id="logo"><img src="images/logo.png" alt="logo CarApp"></div>
+			<div id="menu"><i class="fa fa-bars color-white" aria-hidden="true"></i></div>	
+		</header>
+		
+		<div id="content">			
+			<div id="contentTop">
+				<center>
+					<div id="contentTopBoxImgError"><img id="errorIcon" src="images/icon.png" alt="logo CarApp"></div>
+					<h2><span class="text-underline">התראה</span> <span id="titleTop"> על תקלה  במנוע </span></h2><br>
+					<h4><span class="text-underline">התקלה:</span> <span id="errorTop"> בעיית טעינת במנוע </span></h4><br>
+					<h4><span class="text-underline">הפיתרון:</span> <span id="solutionTop"> פיתרון חשמלי </span></h4><br>
+					<hr>
+					<br>
+				</center>				
+			</div>
+			<div id="contentMap">
+				<center>
+					<h4 id="garage">המוסך הקרוב אליך</h4><br>
+					<div id="mapDiv"></div>
+				</center>
+			</div>			
+			<div id="contentBottom">
+				<div id="wazeLink"><a href="#"><img src="images/waze.png" alt="waze"></a></div>
+				<div id="wazeText"><a href="#"><span class="text-underline">:סע ליעד</span></a></div>	
+			</div>			
+		</div>				
+	</div>
+</body>
+</html>
